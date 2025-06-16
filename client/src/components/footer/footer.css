@@ -1,0 +1,104 @@
+.Footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-bottom: 7%;
+}
+.socials {
+    height: 100%;
+    width: 30%;
+}
+.Footer_Navtags {
+    min-height: fit-content;
+    height: auto;
+    width: 30%;
+    padding-top: 7%;
+}
+.Footer_Navtags_Inner {
+    min-height: fit-content;
+    height: auto;
+    width: 100%;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+}
+.Navtags_left,
+.Navtags_right  {
+    min-width: fit-content;
+    width: auto;
+    margin-right: 40px;
+}
+a {
+    text-decoration: none;
+}
+.Footer_Navtags_Inner h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 22.5px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.Footer_Navtags h2 {
+    font-size: 15px;
+    font-weight: 300;
+    width: 85%;
+    color: #808080;
+    margin-right: 20px;
+}
+.socials h2 {
+    font-size: 15px;
+    font-weight: 300;
+    width: 85%;
+    color: #808080;
+    margin-left: 3.1%;
+    margin-top: 20%;
+}
+.footer_small_arrow {
+    transform: translate(10px, 4.5px);
+    transition: 1s;
+    border-radius: 22.5px;
+}
+.footer_small_arrow:hover {
+    background-color: white;
+    border-radius: 22.5px;
+    color: black;
+}
+.Footer_Socials_Inner {
+    height: 133px;
+    width: 133px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Footer_Socials_Inner a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin: 12px;
+    height: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .Footer {
+        width: 100vw;
+        min-height: fit-content;
+        height: auto;
+        display: block;
+        background-color: black;
+        padding-bottom: 7%;
+    }
+    .Footer_Navtags {
+        display: block;
+        margin: 0 auto;
+    }
+    .socials {
+        display: block;
+        margin: 0 auto;
+    }
+    .Footer_Socials_Inner {
+        transform: translateX(-8.5px);
+    }
+}

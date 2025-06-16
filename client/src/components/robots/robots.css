@@ -1,0 +1,165 @@
+.Robot_Outer_Container {
+    width: 100vw;
+    min-height: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.Robot_Inner_Container {
+    width: 95%;
+    min-height: fit-content;
+    height: auto;
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.robotBigCard {
+    width: 1456px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    transform: translateX(-7px);
+}
+.robotCard1 {
+    width: 718px;
+    height: 430px;
+    margin: 5px;
+    background-color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
+.robotCard2 {
+    width: 718px;
+    height: 430px;
+    margin: 5px;
+    background-color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
+.robotCard3 {
+    width: 718px;
+    height: 430px;
+    margin: 5px;
+    background-color: white;
+    transition: 0.5s;
+}
+.robotCard1:hover {
+    width: 773px;
+}
+.robotCard1:hover ~ .robotCard2,
+.robotCard1:hover ~ .robotCard3 {
+    width: 663px;
+}
+.robotCard2:hover {
+    width: 833px;
+}
+.robotCard2:hover ~ .robotCard1 {
+    width: 603px;
+}
+.robot_image {
+    height: calc(100% - 75px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.robot_control {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.robot_control p {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.robot_control a {
+    color: white;
+    border: 0.25px solid white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 40px;
+    margin-top: 10px;
+    height: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 0 0 white inset;
+    transition: 0.5s;
+    opacity: 0;
+}
+.robotCard1:hover .robot_control a,
+.robotCard2:hover .robot_control a{
+    opacity: 1;
+}
+.robot_control a:hover {
+    color: black;
+    border: 0.25px solid white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 40px;
+    margin-top: 10px;
+    height: 25px;
+    padding: 5px 10px;
+    box-shadow: 200px 0 0 white inset;
+}
+.robot_image img {
+    height: 75%;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 1500px) {
+    .robotBigCard {
+        transform: scale(80%);
+    }
+}
+@media screen and (max-width: 1180px) {
+    .robotBigCard {
+        transform: scale(70%);
+    }
+}
+@media screen and (max-width: 1130px) {
+    .robotBigCard {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -132.5px;
+        margin-bottom: -132.5px;
+        min-width: fit-content;
+        width: auto;
+        min-height: fit-content;
+        height: auto;
+    }
+    .robotCard1:hover {
+        width: 718px;
+    }
+    .robotCard1:hover ~ .robotCard2,
+    .robotCard1:hover ~ .robotCard3 {
+        width: 718px;
+    }
+    .robotCard2:hover {
+        width: 718px;
+    }
+    .robotCard2:hover ~ .robotCard1 {
+        width: 718px;
+    }
+    .robot_control a {
+        opacity: 1;
+    }
+    .robotCard3 {
+        background-color: transparent;
+    }
+
+}
+@media screen and (max-width: 530px) {
+    .Robot_Inner_Container {
+        transform: scale(70%);
+        min-width: fit-content;
+        width: auto;
+        min-height: fit-content;
+        height: auto;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}

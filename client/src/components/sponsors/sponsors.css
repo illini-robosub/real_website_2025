@@ -1,0 +1,56 @@
+.title {
+    text-align: center;
+    font-size: 125px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.desc {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.Milwaukee_tools {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.sponsor_cards {
+    width: 400px;
+    height:auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 1;
+}
+
+.sponsor_cards:hover {
+    opacity: 0.5;
+    transform: scale(0.95);
+}
+
+
+.sponsor_cards img {
+    width: 100%;
+    height: 200px;
+    min-height:200px;
+    object-fit:contain;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.Only_Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

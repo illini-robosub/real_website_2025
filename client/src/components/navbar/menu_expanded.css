@@ -1,0 +1,159 @@
+.menu_navbar {
+    overflow-x: hidden;
+    z-index: 3;
+    position: relative;
+}
+.exit_sidebar {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: right;
+}
+.main_sidebar {
+    width: 100%;
+    min-height: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: right;
+}
+.social_sidebar {
+    height: 100%;
+    width: 40%;
+}
+.menu_closed {
+    width: 45vw;
+    height: 100vh;
+    max-width: 875px;
+    background-color: rgb(23, 23, 23);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 100vw;
+    z-index: 5;
+}
+/* Desktop Menu*/
+.menu_expanded {
+    width: 45vw;
+    height: 100vh;
+    max-width: 420px;
+    background-color: rgb(23, 23, 23);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 100vw;
+    transform: translateX(0);
+    animation: slide1 1.5s forwards;
+    z-index: 5;
+}
+@keyframes slide1 {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* Desktop View Menu Close*/
+.menu_closed_2 {
+    width: 45vw;
+    height: 100vh;
+    max-width: 420px;
+    background-color: rgb(23, 23, 23);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 100vw;
+    transform: translateX(-100%);
+    animation: slide2 1.5s forwards;
+    z-index: 5;
+}
+
+@keyframes slide2 {
+    100% {
+        transform: translateX(0); 
+    }
+}
+/* Phone View Menu*/
+.menu_expanded_2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 23, 23);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 100vw;
+    animation: slide3 1s forwards;
+    z-index: 5;
+}
+@keyframes slide3 {
+    100% {
+        left: 0vw
+    }  
+}
+/* Phone View Menu Close*/
+.menu_closed_3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 23, 23);
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0vw;
+    animation: slide4 1s forwards;
+    z-index: 5;
+}
+@keyframes slide4 {
+    100% {
+        left: 100vw
+    }  
+}
+
+.menu_option {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 350px;
+}
+.menu_option_val {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.menu_option h4 {
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.menu_option_val h3 {
+    font-weight: 100;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+.menu_option_val h2 {
+    font-weight: 300;
+    font-size: 50px;
+}
+.menu_option_val h2:hover {
+    font-weight: 100;
+    font-size: 50px;
+}
+.sidebar_exit_button {
+    color: white;
+    font-size: 27.5px;
+    transform: rotate(45deg);
+    margin-right: 45px;
+    margin-top: 35px;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 40px;
+    transition: 1s;
+    box-shadow: 0px 0px 0px white inset;
+}
+.sidebar_exit_button:hover {
+    color: black;
+    font-size: 27.5px;
+    transform: rotate(45deg);
+    margin-right: 45px;
+    margin-top: 35px;
+    cursor: pointer;
+    background-color: white;
+    padding: 2px;
+    border-radius: 40px;
+    box-shadow: 20px -20px 0px white inset;
+}

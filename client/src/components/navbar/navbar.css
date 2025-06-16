@@ -1,0 +1,109 @@
+.Navbar {
+    background-color: white;
+    width: 100%;
+    min-height: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    z-index: 2;
+    position: fixed;
+    animation: navbar_seen 1s forwards
+}
+@keyframes navbar_seen {
+    0% {
+        transform: translateY(-15vh);
+    }
+    100% {
+        transform: translateY(0vh);
+    }
+}
+.Navbar_hidden {
+    background-color: white;
+    width: 100%;
+    min-height: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    z-index: 2;
+    position: fixed;
+    transform: translateY(-15vh);
+    animation: navbar_hidden 1s forwards;
+}
+@keyframes navbar_hidden {
+    0% {
+        transform: translateY(0vh);
+    }
+    100% {
+        transform: translateY(-15vh);
+    }
+}
+.logo_container {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.rso_title_container {
+    height: 100%;
+    width: 500px;
+    margin-top: 18px;
+}
+.rso_title_container a:visited {
+    color: inherit; /* Prevents color change after clicking */
+}
+.menu {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.menu_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 black inset;
+    transition: 1s;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+.menu_button:hover {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: 101px 0 0 black inset;
+    letter-spacing: 2px;
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+.menu_icon {
+    font-size: 25px;
+    transform: translate(2px, 5.5px);
+}
+.rso_title_container h1 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.logo_image {
+    width: 60px;
+    height: 60px;
+}
