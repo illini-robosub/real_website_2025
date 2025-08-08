@@ -1,0 +1,90 @@
+.title {
+    text-align: center;
+    min-height: 100vh;
+    font-size: 125px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.arrow_icon {
+    padding-top: 100px;
+}
+
+.desc {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.entry_title {
+    padding-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.entry {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:row;
+    height:auto;
+    margin: 10 auto;
+    text-align: left;
+    padding: 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 1;
+}
+
+.entry:hover {
+    transform: scale(1.00);
+}
+
+
+
+.entry_image {
+    height: 300px;
+    width: 1500px;
+    max-width: 40%;
+    margin-right: 35px;
+
+    
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    /*
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    */
+}
+
+.entry p {
+    margin-top: 10px;
+}
+
+.doc_entry {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:50px;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+hr {
+    border: none;                 
+    border-top: 1px dashed black;  
+    width: 85%;        
+    stroke: 5px;             
+    margin: 0px auto;    
+    margin-top: 55px;         
+}
+
+
+.wielder_of_the_magic_circle {
+    height: 50px;
+}

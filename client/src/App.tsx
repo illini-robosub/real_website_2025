@@ -4,7 +4,8 @@ import Home from './components/home/Home'
 import Robots from './components/robots/Robots'
 import Members from './components/members/Members'
 import Sponsors from './components/sponsors/Sponsors'
-import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contact'
+import Docs from './components/docs/Docs'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Route path="/robots" element={<Robots/>}/>
       <Route path="/sponsors" element={<Sponsors/>}/>
       <Route path="/members" element={<Members/>}/>
-      <Route path="/docs" element={<Home/>}/>
+      <Route path="/docs" element={<Docs/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
   )
