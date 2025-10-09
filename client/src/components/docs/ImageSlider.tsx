@@ -38,7 +38,7 @@ export function ImageSlider({ imageURLs } : ImageSliderProps) {
         <BsArrowRightCircleFill onClick={ShowNextImage} className="image_slider_button" style={{ right:0 }}/>
 
         <div style = {{position:"absolute", bottom:"0.5rem", left:"50%", translate:"-50%", display:"flex", gap:"0.25rem"}}>
-            {imageURLs.map((useless, index) => (
+            {imageURLs.map((_, index) => (
                 <button key={index} className={index === imageIndex ? "slider_dot_button" : "slider_dot_button dot_inactive"} onClick={() => setImageIndex(index)}></button>
             ))}
         </div> 
