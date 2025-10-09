@@ -14,6 +14,8 @@ const Navbar: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
   const [navbar, setNavbar] = useState('Navbar');
 
+// a
+
   useEffect(() => {
     window.addEventListener('scroll', () => {
       setScrollY(window.scrollY)
