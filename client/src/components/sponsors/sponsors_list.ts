@@ -15,7 +15,7 @@ const sponsorsList = [
         Name: "Terradyne",
         SponsorImage: "../../../sponsors/teradyne.jpg",
         SponsorWebsite: "https://www.teradyne.com/",
-        Status: "Current"
+        Status: "Old"
     },
     {
         Name: "TMS Titanium",
