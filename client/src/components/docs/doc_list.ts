@@ -5,7 +5,7 @@ const docList = [
     {
         Name: "Milwaukee Tool",
         DocMedia: [s25 + "/s25_1.jpg", s25 + "/s25_2.jpg", s25 + "/s25_3.jpg"],
-        DocText: "The summer of 2025 saw Illini Robosub make massive strides toward being competition ready. Over the past year, our team has successfully demonstrated instances of controlled underwater movement and full autonomous navigation. As a result, we feel optimistic in our robot, 'Box,' to be ready for RoboSu 2026.",
+        DocText: "The summer of 2025 saw Illini Robosub make massive strides toward being competition ready. Over the past year, our team has successfully demonstrated instances of controlled underwater movement and full autonomous navigation. As a result, we feel optimistic in our robot, 'Box,' to be ready for RoboSub 2026.",
         Date: "Summer 2025",
     },
     {
