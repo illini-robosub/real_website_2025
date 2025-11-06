@@ -73,7 +73,7 @@ const Docs: React.FC = () => {
         <Navbar/>
           <ProgressBar  />
           <div className='docs_page'>
-              <h1 className='title'>Documentation <br></br><img src="../../../doc_images/arrow_icon.svg" alt="" className="arrow_icon"></img></h1>         
+              <h1 className='title'>History <br></br><img src="../../../doc_images/arrow_icon.svg" alt="" className="arrow_icon"></img></h1>         
                 <div className = "wielder_of_the_magic_circle">
                 </div>
                 <div className='doc_entry' >

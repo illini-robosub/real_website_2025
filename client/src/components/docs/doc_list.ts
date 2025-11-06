@@ -5,7 +5,7 @@ const docList = [
     {
         Name: "Milwaukee Tool",
         DocMedia: [s25 + "/s25_1.jpg", s25 + "/s25_2.jpg", s25 + "/s25_3.jpg"],
-        DocText: "This summer we're ready to fulfill what's been three years in the making, finally entering the official RoboSub competition. Over the past year, our team has successfully demonstrated instances of controlled underwater movement and full autonomous navigation. As a result, we feel optimistic in our robot, 'Box,' to have a strong showing in its first competition. Our subteams have been working hard to prepare Box for its journey to Irvine California, where it will compete against dozens of other schools in its ability to navigate obstacles and complete tasks. A group of six students will also travel to Irvine to accompany Box and answer questions about the design process.",
+        DocText: "The summer of 2025 saw Illini Robosub make massive strides toward being competition ready. Over the past year, our team has successfully demonstrated instances of controlled underwater movement and full autonomous navigation. As a result, we feel optimistic in our robot, 'Box,' to be ready for RoboSu 2026.",
         Date: "Summer 2025",
     },
     {
