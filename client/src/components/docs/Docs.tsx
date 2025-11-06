@@ -45,21 +45,23 @@ const DocEntries: React.FC<Props> = ({
 
     return (
         <>
-            <div className="entry_title">{Date}</div>
-            <div className='entry'>
 
-                <div className="entry_image">
-                    <ImageSlider imageURLs={DocMedia}></ImageSlider>
-                </div>
-                 <div className="entry_text">
-                    {
-                        splitIntoParagraphs(DocText, 500).map((para, index) => (
-                            <p key={index}>{para} </p>
-                        ))
-                    }
+            <hr></hr>
+            <div className="entry">
+                <div className="entry_title">{Date}</div>
+                <div className="entry_body">
+                    <div className="entry_text">
+                        {
+                            splitIntoParagraphs(DocText, 500).map((para, index) => (
+                                <p key={index}>{para} </p>
+                            ))
+                        }
+                    </div>
+                    <div className="entry_image">
+                        <ImageSlider imageURLs={DocMedia}></ImageSlider>
+                    </div>
                 </div>
             </div>
-            <hr></hr>
         </>
     )
 }
@@ -73,7 +75,7 @@ const Docs: React.FC = () => {
         <Navbar/>
           <ProgressBar  />
           <div className='docs_page'>
-              <h1 className='title'>History <br></br><img src="../../../doc_images/arrow_icon.svg" alt="" className="arrow_icon"></img></h1>         
+              <h1 className='title'>History<br></br><img src="../../../doc_images/arrow_icon.svg" alt="" className="arrow_icon"></img></h1>         
                 <div className = "wielder_of_the_magic_circle">
                 </div>
                 <div className='doc_entry' >
