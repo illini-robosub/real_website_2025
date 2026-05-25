@@ -54,8 +54,9 @@
     width: 500px;
     margin-top: 18px;
 }
+.rso_title_container a,
 .rso_title_container a:visited {
-    color: inherit; /* Prevents color change after clicking */
+    color: black;
 }
 .menu {
     height: 100%;

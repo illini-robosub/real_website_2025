@@ -24,7 +24,7 @@ const docList = [
     {
         Name: "Pre-2022",
         DocMedia: ["../../../doc_images/hall.jpg"],
-        DocText: "Sometime during the 2020 school year, Illini Robosub was forced to shut down to restrictions caused by the COVID-19 pandemic.",
+        DocText: "Sometime during the 2020 school year, Illini Robosub was forced to shut down to restrictions caused by the COVID-19 pandemic. A less lazy web developer would find out more information.",
         Date: "PRE-2022",
     }
     
