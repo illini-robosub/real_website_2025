@@ -52,6 +52,48 @@ const sponsorsList = [
         SponsorImage: "../../../sponsors/anduril.png",
         SponsorWebsite: "https://www.anduril.com/",
         Status: "Current"
+    },
+    {
+        Name: "Grainger",
+        SponsorImage: "../../../sponsors/grainger.png",
+        SponsorWebsite: "https://www.grainger.com/",
+        Status: "Current"
+    },
+    {
+        Name: "SendCutSend",
+        SponsorImage: "../../../sponsors/scs.png",
+        SponsorWebsite: "https://sendcutsend.com/",
+        Status: "Current"
+    },
+    {
+        Name: "Castle Creations",
+        SponsorImage: "../../../sponsors/castlecreations.png",
+        SponsorWebsite: "https://www.castlecreations.com/",
+        Status: "Current"
+    },
+    {
+        Name: "VBelt Guys",
+        SponsorImage: "../../../sponsors/vbeltguys.png",
+        SponsorWebsite: "https://www.vbeltguys.com/",
+        Status: "Current"
+    },
+    {
+        Name: "Online Metals",
+        SponsorImage: "../../../sponsors/onlinemetals.jpg",
+        SponsorWebsite: "https://www.onlinemetals.com/",
+        Status: "Current"
+    },
+    {
+        Name: "Artisan",
+        SponsorImage: "../../../sponsors/artisan.jpeg",
+        SponsorWebsite: "https://www.artisan.co/",
+        Status: "Current"
+    },
+    {
+        Name: "Boeing",
+        SponsorImage: "../../../sponsors/boeing.png",
+        SponsorWebsite: "https://www.boeing.com/",
+        Status: "Current"
     }
     
 ]

@@ -30,7 +30,7 @@ const Sponsors: React.FC = () => {
       <>
         <Navbar/>
           <div className='Sponsors_page'>
-              <h1 className='title'>Sponsors</h1>
+                <h1 className='title'>Sponsors<br></br><img src="../../../doc_images/arrow_icon.svg" alt="" className="arrow_icon"></img></h1>   
               <h4 className='desc'>Illini RoboSub is apart of the <a href="https://irobotics.illinois.edu" target="_blank" style ={{ fontWeight:'bold'}}>IRobotics</a> organization which is proudly supported by the following:</h4>
                 <div className='Only_Cards' >
                     {
